@@ -2,7 +2,7 @@ import socket
 import threading
 import string 
 import math
-
+print("This chatroom is enabled with IP address of local host 127.0.0.1 and communication through port 9988")
 ip_address = '127.0.0.1'
 letters = string.ascii_letters
 letNumDict, numLetDict = {' ': 0}, {0: ' '}
